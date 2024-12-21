@@ -9,9 +9,15 @@ public class mulCalculator {
         result =mul(num1, num2);
 
         System.out.println("Result: " + result);
+
+        result = add(num1, num2);
+        System.out.println("Result: " + result);
     }
 
     public static int mul(int a, int b) {
         return a * b;
+    }
+    public static int add(int a, int b) {
+        return a + b;
     }
 }
