@@ -17,4 +17,8 @@ public class mulCalculator {
         return a * b;
     }
 
+    public static int add(int a, int b) {
+        return a + b;
+    }
+
 }
